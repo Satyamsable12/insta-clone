@@ -10,6 +10,10 @@ img {
 
 }
 
+.nav-mobile {
+    display: none;
+}
+
 ul {
     display: flex;
     align-items: baseline;
@@ -43,4 +47,34 @@ a {
 .primaryBtn:hover {
     transform: translate(-5px);
     box-shadow: 0 10px 20px -10px rgba(219, 24, 44, 0.6);
+}
+
+@media screen and (max-width:800px) {
+    #insta-logo {
+        display: none;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-mobile {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        box-shadow: 0px -2px 5px #fff;
+        background-color: #fff;
+    }
+
+    .navbar ul {
+        margin: 0;
+        padding: 10px 0px;
+    }
 }
