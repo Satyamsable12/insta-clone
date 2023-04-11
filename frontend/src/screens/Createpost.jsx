@@ -117,9 +117,9 @@ const Createpost = () => {
 
                 {/* details card header card pic */}
                 <div className="card-pic">
-                    <img src="https://images.unsplash.com/photo-1644621596488-25d519a1a8ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwc3F1YXJlfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+                    <img src="" alt="" />
                 </div>
-                <h5>Ramesh</h5>
+                {/* <h5>Ramesh</h5> */}
 
             </div>
 
